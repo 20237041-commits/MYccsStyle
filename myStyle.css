@@ -1,0 +1,79 @@
+body{
+    border: 1px solid black;
+    align-items: center;
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto;
+    
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    width: 1307px;
+
+}
+nav{
+    text-align: center;
+    gap: 30px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+a{
+    color: black;
+    border-radius: 3px;
+    
+}
+a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+   
+}
+main #home{
+    border: 1px;
+    background-color: beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+}
+main #about{
+    border: 1px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+main #projects{
+    border: 1px;
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+main #projects ul li{
+    line-height: 40px;
+    color: red;
+    list-style: none;
+}
+main #contact{
+    border: 1px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+footer{
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    text-size-adjust: 40px;
+    font-size: small;
+    background-color: azure;
+}
